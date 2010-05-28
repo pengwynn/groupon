@@ -1,0 +1,619 @@
+{
+    "divisions": [
+        {
+            "id": "albuquerque", 
+            "location": {
+                "latitude": 35.084499999999998, 
+                "longitude": -106.651, 
+                "timezone": "Mountain Time (US & Canada)", 
+                "timezone_offset_gmt": -25200
+            }, 
+            "name": "Albuquerque"
+        }, 
+        {
+            "id": "atlanta", 
+            "location": {
+                "latitude": 33.7545, 
+                "longitude": -84.389700000000005, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Atlanta"
+        }, 
+        {
+            "id": "austin", 
+            "location": {
+                "latitude": 30.268699999999999, 
+                "longitude": -97.745199999999997, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Austin"
+        }, 
+        {
+            "id": "baltimore", 
+            "location": {
+                "latitude": 39.2943, 
+                "longitude": -76.6143, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Baltimore"
+        }, 
+        {
+            "id": "birmingham", 
+            "location": {
+                "latitude": 33.520699999999998, 
+                "longitude": -86.802499999999995, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Birmingham"
+        }, 
+        {
+            "id": "boston", 
+            "location": {
+                "latitude": 42.358899999999998, 
+                "longitude": -71.0578, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Boston"
+        }, 
+        {
+            "id": "brooklyn", 
+            "location": {
+                "latitude": 40.650100000000002, 
+                "longitude": -73.949600000000004, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Brooklyn"
+        }, 
+        {
+            "id": "charlotte", 
+            "location": {
+                "latitude": 35.231400000000001, 
+                "longitude": -80.845799999999997, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Charlotte"
+        }, 
+        {
+            "id": "chicago", 
+            "location": {
+                "latitude": 41.8795, 
+                "longitude": -87.624300000000005, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Chicago"
+        }, 
+        {
+            "id": "cincinnati", 
+            "location": {
+                "latitude": 39.148000000000003, 
+                "longitude": -84.477000000000004, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Cincinnati"
+        }, 
+        {
+            "id": "cleveland", 
+            "location": {
+                "latitude": 41.499499999999998, 
+                "longitude": -81.695400000000006, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Cleveland"
+        }, 
+        {
+            "id": "colorado-springs", 
+            "location": {
+                "latitude": 38.8339, 
+                "longitude": -104.821, 
+                "timezone": "Mountain Time (US & Canada)", 
+                "timezone_offset_gmt": -25200
+            }, 
+            "name": "Colorado Springs"
+        }, 
+        {
+            "id": "columbus", 
+            "location": {
+                "latitude": 39.961199999999998, 
+                "longitude": -82.998800000000003, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Columbus"
+        }, 
+        {
+            "id": "dallas", 
+            "location": {
+                "latitude": 32.781100000000002, 
+                "longitude": -96.7971, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Dallas"
+        }, 
+        {
+            "id": "denver", 
+            "location": {
+                "latitude": 39.755099999999999, 
+                "longitude": -104.988, 
+                "timezone": "Mountain Time (US & Canada)", 
+                "timezone_offset_gmt": -25200
+            }, 
+            "name": "Denver"
+        }, 
+        {
+            "id": "detroit", 
+            "location": {
+                "latitude": 42.331400000000002, 
+                "longitude": -83.0458, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Detroit"
+        }, 
+        {
+            "id": "fort-worth", 
+            "location": {
+                "latitude": 32.7254, 
+                "longitude": -97.320800000000006, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Fort Worth"
+        }, 
+        {
+            "id": "fresno", 
+            "location": {
+                "latitude": 36.747700000000002, 
+                "longitude": -119.77200000000001, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Fresno"
+        }, 
+        {
+            "id": "hampton-roads", 
+            "location": {
+                "latitude": 36.852899999999998, 
+                "longitude": -75.977999999999994, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Hampton Roads"
+        }, 
+        {
+            "id": "houston", 
+            "location": {
+                "latitude": 29.760000000000002, 
+                "longitude": -95.362499999999997, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Houston"
+        }, 
+        {
+            "id": "indianapolis", 
+            "location": {
+                "latitude": 39.767000000000003, 
+                "longitude": -86.156300000000002, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Indianapolis"
+        }, 
+        {
+            "id": "jacksonville", 
+            "location": {
+                "latitude": 30.3322, 
+                "longitude": -81.655600000000007, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Jacksonville"
+        }, 
+        {
+            "id": "kansas-city", 
+            "location": {
+                "latitude": 39.099699999999999, 
+                "longitude": -94.578599999999994, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Kansas City"
+        }, 
+        {
+            "id": "las-vegas", 
+            "location": {
+                "latitude": 36.114600000000003, 
+                "longitude": -115.173, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Las Vegas"
+        }, 
+        {
+            "id": "long-island", 
+            "location": {
+                "latitude": 40.816800000000001, 
+                "longitude": -73.066100000000006, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Long Island"
+        }, 
+        {
+            "id": "los-angeles", 
+            "location": {
+                "latitude": 34.052199999999999, 
+                "longitude": -118.24299999999999, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Los Angeles"
+        }, 
+        {
+            "id": "louisville", 
+            "location": {
+                "latitude": 38.254199999999997, 
+                "longitude": -85.759399999999999, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Louisville"
+        }, 
+        {
+            "id": "memphis", 
+            "location": {
+                "latitude": 35.149500000000003, 
+                "longitude": -90.049000000000007, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Memphis"
+        }, 
+        {
+            "id": "miami", 
+            "location": {
+                "latitude": 25.7743, 
+                "longitude": -80.190299999999993, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Miami"
+        }, 
+        {
+            "id": "milwaukee", 
+            "location": {
+                "latitude": 43.038899999999998, 
+                "longitude": -87.906499999999994, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Milwaukee"
+        }, 
+        {
+            "id": "minneapolis-stpaul", 
+            "location": {
+                "latitude": 44.979999999999997, 
+                "longitude": -93.263800000000003, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Minneapolis / St Paul"
+        }, 
+        {
+            "id": "nashville", 
+            "location": {
+                "latitude": 36.165900000000001, 
+                "longitude": -86.784400000000005, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Nashville"
+        }, 
+        {
+            "id": "new-orleans", 
+            "location": {
+                "latitude": 29.954599999999999, 
+                "longitude": -90.075100000000006, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "New Orleans"
+        }, 
+        {
+            "id": "new-york", 
+            "location": {
+                "latitude": 40.756100000000004, 
+                "longitude": -73.986999999999995, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "New York"
+        }, 
+        {
+            "id": "oklahoma-city", 
+            "location": {
+                "latitude": 35.467599999999997, 
+                "longitude": -97.516400000000004, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Oklahoma City"
+        }, 
+        {
+            "id": "omaha", 
+            "location": {
+                "latitude": 41.253999999999998, 
+                "longitude": -95.999300000000005, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Omaha"
+        }, 
+        {
+            "id": "orange-county", 
+            "location": {
+                "latitude": 33.745600000000003, 
+                "longitude": -117.86799999999999, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Orange County"
+        }, 
+        {
+            "id": "orlando", 
+            "location": {
+                "latitude": 28.5383, 
+                "longitude": -81.379199999999997, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Orlando"
+        }, 
+        {
+            "id": "philadelphia", 
+            "location": {
+                "latitude": 39.951599999999999, 
+                "longitude": -75.163799999999995, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Philadelphia"
+        }, 
+        {
+            "id": "phoenix", 
+            "location": {
+                "latitude": 33.448300000000003, 
+                "longitude": -112.074, 
+                "timezone": "Arizona", 
+                "timezone_offset_gmt": -25200
+            }, 
+            "name": "Phoenix"
+        }, 
+        {
+            "id": "pittsburgh", 
+            "location": {
+                "latitude": 40.440600000000003, 
+                "longitude": -79.995900000000006, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Pittsburgh"
+        }, 
+        {
+            "id": "portland", 
+            "location": {
+                "latitude": 45.523499999999999, 
+                "longitude": -122.676, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Portland"
+        }, 
+        {
+            "id": "providence", 
+            "location": {
+                "latitude": 41.823999999999998, 
+                "longitude": -71.412800000000004, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Providence"
+        }, 
+        {
+            "id": "queens", 
+            "location": {
+                "latitude": 40.7498, 
+                "longitude": -73.797600000000003, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Queens"
+        }, 
+        {
+            "id": "raleigh-durham", 
+            "location": {
+                "latitude": 35.772100000000002, 
+                "longitude": -78.638599999999997, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Raleigh / Durham"
+        }, 
+        {
+            "id": "sacramento", 
+            "location": {
+                "latitude": 38.581600000000002, 
+                "longitude": -121.494, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Sacramento"
+        }, 
+        {
+            "id": "salt-lake-city", 
+            "location": {
+                "latitude": 40.760800000000003, 
+                "longitude": -111.89100000000001, 
+                "timezone": "Mountain Time (US & Canada)", 
+                "timezone_offset_gmt": -25200
+            }, 
+            "name": "Salt Lake City"
+        }, 
+        {
+            "id": "san-antonio", 
+            "location": {
+                "latitude": 29.424099999999999, 
+                "longitude": -98.493600000000001, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "San Antonio"
+        }, 
+        {
+            "id": "san-diego", 
+            "location": {
+                "latitude": 32.718800000000002, 
+                "longitude": -117.164, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "San Diego"
+        }, 
+        {
+            "id": "san-francisco", 
+            "location": {
+                "latitude": 37.775199999999998, 
+                "longitude": -122.419, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "San Francisco"
+        }, 
+        {
+            "id": "san-jose", 
+            "location": {
+                "latitude": 37.339399999999998, 
+                "longitude": -121.895, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "San Jose"
+        }, 
+        {
+            "id": "seattle", 
+            "location": {
+                "latitude": 47.621000000000002, 
+                "longitude": -122.34699999999999, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Seattle"
+        }, 
+        {
+            "id": "sioux-falls", 
+            "location": {
+                "latitude": 43.549999999999997, 
+                "longitude": -96.700299999999999, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Sioux Falls"
+        }, 
+        {
+            "id": "stlouis", 
+            "location": {
+                "latitude": 38.627499999999998, 
+                "longitude": -90.198400000000007, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "St Louis"
+        }, 
+        {
+            "id": "tampa", 
+            "location": {
+                "latitude": 27.981400000000001, 
+                "longitude": -82.451099999999997, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Tampa"
+        }, 
+        {
+            "id": "toronto", 
+            "location": {
+                "latitude": 43.670200000000001, 
+                "longitude": -79.386799999999994, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Toronto"
+        }, 
+        {
+            "id": "tucson", 
+            "location": {
+                "latitude": 32.221699999999998, 
+                "longitude": -110.926, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Tucson"
+        }, 
+        {
+            "id": "tulsa", 
+            "location": {
+                "latitude": 36.154000000000003, 
+                "longitude": -95.992800000000003, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Tulsa"
+        }, 
+        {
+            "id": "vancouver", 
+            "location": {
+                "latitude": 49.263599999999997, 
+                "longitude": -123.139, 
+                "timezone": "Pacific Time (US & Canada)", 
+                "timezone_offset_gmt": -28800
+            }, 
+            "name": "Vancouver"
+        }, 
+        {
+            "id": "washington-dc", 
+            "location": {
+                "latitude": 38.892099999999999, 
+                "longitude": -77.024100000000004, 
+                "timezone": "Eastern Time (US & Canada)", 
+                "timezone_offset_gmt": -18000
+            }, 
+            "name": "Washington DC"
+        }, 
+        {
+            "id": "wichita", 
+            "location": {
+                "latitude": 37.6922, 
+                "longitude": -97.337500000000006, 
+                "timezone": "Central Time (US & Canada)", 
+                "timezone_offset_gmt": -21600
+            }, 
+            "name": "Wichita"
+        }
+    ], 
+    "status": {
+        "code": 0, 
+        "date": "2010-05-28T03:11:35Z", 
+        "message": "Ok"
+    }
+}
