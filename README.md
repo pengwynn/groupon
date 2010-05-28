@@ -20,6 +20,8 @@ You'll need a Groupon [API key](http://sites.google.com/site/grouponapi/home).
     
 ### Finding deals
 
+    # full list of query options: http://sites.google.com/site/grouponapi/deals-api
+    
     deals = Groupon.deals(:lat => 38.8339, :lng => -104.821)
     
 ### Finding deals by division
