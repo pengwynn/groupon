@@ -3,6 +3,7 @@
 
 *.gem
 dist
+.yardopts
 
 ## TEXTMATE
 *.tmproj
