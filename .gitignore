@@ -4,6 +4,7 @@
 *.gem
 dist
 .yardopts
+.yardoc
 
 ## TEXTMATE
 *.tmproj
