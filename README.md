@@ -51,5 +51,4 @@ Groupon uses a [`Hashie::Mash`](http://github.com/intridea/hashie) for return va
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-
 Copyright (c) 2010 [Wynn Netherland](http://wynnnetherland.com). See LICENSE for details.
