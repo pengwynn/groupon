@@ -1,0 +1,10 @@
+@import url(http://static.wynnnetherland.com/code/css/yard.css);
+
+body {
+  background: #89B556;
+}
+
+#content {
+  padding-top: 80px;
+  background: url(http://static.wynnnetherland.com/code/images/groupon.png) top left no-repeat;
+}
