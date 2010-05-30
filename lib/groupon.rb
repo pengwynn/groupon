@@ -9,29 +9,33 @@ module Groupon
   
   VERSION = "0.0.1".freeze
   
+  # Returns a list of divisions - cities where Groupon is live.
+  # @see http://sites.google.com/site/grouponapi/divisions-api
+  # @return [Array<Hashie::Mash>] an array of divisions
   def self.divisions
     Groupon::Client.new.divisions
   end
   
+  # Returns a list of deals.
+  #   The API returns an ordered list of deals currently running for a given Division.
+  #   Priority is based on position within the response (top deals are higher in priority).
+  #
+  # @see http://sites.google.com/site/grouponapi/divisions-api
+  #
+  # @option options [String] :lat (Latitudinal coordinates based on IP of API request) Latitude of geolocation to find deals
+  # @option options [String] :lng (Longtitudinal coordinates based on IP of API request) Longitude of geolocation to find deals
+  # @return [Array<Hashie::Mash>] an array of deals
   def self.deals(options={})
     Groupon::Client.new.deals(options)
   end
 
-  # config/initializers/gowalla.rb (for instance)
-  # 
-  # Groupon.configure do |config|
-  #   config.api_key = 'api_key'
-  # end
-  # 
-  # elsewhere
-  #
-  # client = Groupon::Client.new
-  def self.configure
-    yield self
-    true
-  end
-
   class << self
+    
+    # Get/sets the required Groupon API token
+    # @see http://sites.google.com/site/grouponapi/home
+    #
+    # @param [String]
+    # @return [String]
     attr_accessor :api_key
   end
   

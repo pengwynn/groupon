@@ -9,10 +9,22 @@ module Groupon
       self.class.headers({'X-GrouponToken' => api_key }) unless api_key.nil?
     end
     
+    # Returns a list of divisions - cities where Groupon is live.
+    # @see http://sites.google.com/site/grouponapi/divisions-api
+    # @return [Array<Hashie::Mash>] an array of divisions
     def divisions
       self.class.get("/divisions.json").divisions
     end
     
+    # Returns a list of deals.
+    #   The API returns an ordered list of deals currently running for a given Division.
+    #   Priority is based on position within the response (top deals are higher in priority).
+    #
+    # @see http://sites.google.com/site/grouponapi/divisions-api
+    #
+    # @option options [String] :lat (Latitudinal coordinates based on IP of API request) Latitude of geolocation to find deals
+    # @option options [String] :lng (Longtitudinal coordinates based on IP of API request) Longitude of geolocation to find deals
+    # @return [Array<Hashie::Mash>] an array of deals
     def deals(query={})
       division = query.delete(:division)
       path = division ? "/#{division}" : ""
