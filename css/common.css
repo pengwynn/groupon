@@ -8,3 +8,10 @@ body {
   padding-top: 80px;
   background: url(http://static.wynnnetherland.com/code/images/groupon.png) top left no-repeat;
 }
+
+h1,h2,h3 {text-shadow: -1px 1px 0px rgba(255,255,255,.2);}
+
+h1{font-size: 32px; font-weight: bold;}
+
+#content a:link, #content a:visited {color: #fff; font-weight: bold; ;}
+#content a:hover {background: transparent;}
