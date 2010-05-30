@@ -1,6 +1,6 @@
 # Groupon
 
-Simple Ruby wrapper for the [Groupon](http://groupon.com) [API](http://sites.google.com/site/grouponapi/home). 
+Simple Ruby wrapper for the Groupon [API](http://sites.google.com/site/grouponapi/home). [Groupon](http://groupon.com) features the best deals and stuff to do in a growing number of major cities.
 
 ## Installation
 
@@ -11,26 +11,37 @@ Simple Ruby wrapper for the [Groupon](http://groupon.com) [API](http://sites.goo
 You'll need a Groupon [API key](http://sites.google.com/site/grouponapi/home).
 
     require 'groupon'
-    
     Groupon.api_key = 'your_key'
     
 ### Listing divisions
 
     divisions = Groupon.divisions
     
-### Finding deals
+Groupon uses a [`Hashie::Mash`](http://github.com/intridea/hashie) for return values, providing a handy hash that supports dot notation:
 
-    # full list of query options: http://sites.google.com/site/grouponapi/deals-api
+    divisions.first.latitude
+    => 35.0845
+    divisions.first.name
+    => "Albuquerque"
+    
+### Finding deals
     
     deals = Groupon.deals(:lat => 38.8339, :lng => -104.821)
+    deals.first.conditions.minimum_purchase
+    => 1
     
 ### Finding deals by division
 
     deals = Groupon.deals(:division => 'dallas')
     
+<a name="changelog"></a>
+## Changelog
 
+### 0.0.1 - May 27, 2010
 
-## Note on Patches/Pull Requests
+* Initial version
+
+## How to contribute
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -40,6 +51,5 @@ You'll need a Groupon [API key](http://sites.google.com/site/grouponapi/home).
   (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-### Copyright
 
-Copyright (c) 2010 Wynn Netherland. See LICENSE for details.
+Copyright (c) 2010 [Wynn Netherland](http://wynnnetherland.com). See LICENSE for details.

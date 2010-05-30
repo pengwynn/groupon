@@ -10,7 +10,7 @@ module Groupon
   VERSION = "0.0.1".freeze
   
   # Returns a list of divisions - cities where Groupon is live.
-  # @see http://sites.google.com/site/grouponapi/divisions-api
+  # @see http://sites.google.com/site/grouponapi/divisions-api  Groupon API docs
   # @return [Array<Hashie::Mash>] an array of divisions
   def self.divisions
     Groupon::Client.new.divisions
@@ -20,7 +20,7 @@ module Groupon
   #   The API returns an ordered list of deals currently running for a given Division.
   #   Priority is based on position within the response (top deals are higher in priority).
   #
-  # @see http://sites.google.com/site/grouponapi/divisions-api
+  # @see http://sites.google.com/site/grouponapi/divisions-api  Groupon API docs
   #
   # @option options [String] :lat (Latitudinal coordinates based on IP of API request) Latitude of geolocation to find deals
   # @option options [String] :lng (Longtitudinal coordinates based on IP of API request) Longitude of geolocation to find deals
@@ -32,7 +32,7 @@ module Groupon
   class << self
     
     # Get/sets the required Groupon API token
-    # @see http://sites.google.com/site/grouponapi/home
+    # @see http://sites.google.com/site/grouponapi/home  Groupon API docs
     #
     # @param [String]
     # @return [String]
