@@ -39,6 +39,7 @@ module Groupon
     attr_accessor :api_key
   end
   
+  # Contains information for errors returned by the API
   class GrouponError < StandardError
     attr_reader :data
 

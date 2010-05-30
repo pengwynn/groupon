@@ -4,6 +4,9 @@ module Groupon
     base_uri "http://www.groupon.com/api/v1"
     format :json
 
+    # Initialize the Groupon client
+    #
+    # @option options [String] :api_key (Groupon.api_key) Your Groupon API token
     def initialize(options={})
       api_key = options[:api_key] || Groupon.api_key
       self.class.headers({'X-GrouponToken' => api_key }) unless api_key.nil?
@@ -32,10 +35,12 @@ module Groupon
       self.class.get(path, :query => query).deals
     end
 
-
+    # @private
     def self.get(*args); handle_response super end
+    # @private
     def self.post(*args); handle_response super end
     
+    # @private
     def self.handle_response(response)
       case response.code
       when 500...600; raise GrouponError.new(Hashie::Mash.new(response).status)
