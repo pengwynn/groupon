@@ -3,7 +3,7 @@ require 'bundler/version'
 require 'lib/groupon'
 
 Gem::Specification.new do |s|
-  s.name = %q{groupon2}
+  s.name = %q{groupon}
   s.version = Groupon::VERSION
   s.platform    = Gem::Platform::RUBY
   s.required_rubygems_version = ">= 1.3.6"
