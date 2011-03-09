@@ -2,7 +2,7 @@ module Groupon
   class Client
     attr_accessor :api_key
     include HTTParty
-    base_uri "http://www.groupon.com/api/v1"
+    base_uri "http://api.groupon.com/v2"
     format :json
 
     # Initialize the Groupon client
