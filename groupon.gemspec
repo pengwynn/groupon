@@ -20,7 +20,12 @@ Gem::Specification.new do |s|
     "test/helper.rb",
      "test/groupon_test.rb"
   ]
-
-  s.add_bundler_dependencies
+  
+  s.add_dependency "hashie", ">= 0.1.3"
+  s.add_dependency "httparty", ">= 0.1.0"
+  s.add_development_dependency "shoulda", ">= 2.10.1"
+  s.add_development_dependency "matchy", "= 0.4.0"
+  s.add_development_dependency "fakeweb", ">= 1.2.5"
+  s.add_development_dependency "yard", ">= 0"
 end
 
