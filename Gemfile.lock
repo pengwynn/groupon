@@ -28,7 +28,6 @@ GEM
     multi_json (1.7.2)
     multi_xml (0.5.3)
     rake (10.0.4)
-    redgreen (1.2.2)
     shoulda (3.4.0)
       shoulda-context (~> 1.0, >= 1.0.1)
       shoulda-matchers (~> 1.0, >= 1.4.1)
@@ -46,6 +45,5 @@ DEPENDENCIES
   groupon!
   jnunemaker-matchy (= 0.4.0)
   mg (>= 0.0.8)
-  redgreen
   shoulda (>= 2.10.1)
   yard
