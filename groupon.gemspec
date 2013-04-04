@@ -1,6 +1,4 @@
-require 'bundler'
-require 'bundler/version'
-require 'lib/groupon'
+require File.join([File.dirname(__FILE__),'lib','groupon','version.rb'])
 
 Gem::Specification.new do |s|
   s.name = %q{groupon}
@@ -20,11 +18,13 @@ Gem::Specification.new do |s|
     "test/helper.rb",
      "test/groupon_test.rb"
   ]
-  
+
   s.add_dependency "hashie", ">= 0.1.3"
   s.add_dependency "httparty", ">= 0.1.0"
   s.add_development_dependency "shoulda", ">= 2.10.1"
-  s.add_development_dependency "matchy", "= 0.4.0"
+  s.add_development_dependency "mg", ">= 0.0.8"
+  s.add_development_dependency "redgreen"
+  s.add_development_dependency "jnunemaker-matchy", "= 0.4.0"
   s.add_development_dependency "fakeweb", ">= 1.2.5"
   s.add_development_dependency "yard", ">= 0"
 end

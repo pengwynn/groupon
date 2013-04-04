@@ -2,7 +2,6 @@ require 'rubygems'
 require 'test/unit'
 require 'shoulda'
 
-require 'redgreen'
 require 'matchy'
 require 'fakeweb'
 
@@ -25,7 +24,7 @@ def fixture_file(filename)
 end
 
 def groupon_url(url, options={})
-  url =~ /^http/ ? url : "http://www.groupon.com/api/v1#{url}"
+  url =~ /^http/ ? url : "http://api.groupon.com/v2#{url}"
 end
 
 def stub_request(method, url, filename, status=nil)
