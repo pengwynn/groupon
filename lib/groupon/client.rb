@@ -45,6 +45,13 @@ module Groupon
       self.class.get(path, :query => query).deals
     end
 
+    # Return a deal by id
+    #   Shows detailed information about a specified deal
+    # @see https://sites.google.com/site/grouponapiv2/api-resources/deals#show-request
+    def deal(id)
+      self.class.get("/deals/#{id}.json", :query => {:client_id => @api_key}).deal
+    end
+
     def self.get(*args); handle_response super end
     def self.post(*args); handle_response super end
 

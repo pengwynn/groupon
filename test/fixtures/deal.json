@@ -1,0 +1,70 @@
+{
+    "deal": {
+        "areas": [], 
+        "conditions": {
+            "details": [
+                "Limit 3 per person, may buy multiple as gifts. Must redeem in 1 visit. Not valid for alcohol. No cash back. Not valid with other offers."
+            ], 
+            "expiration_date": "2010-11-29T05:59:00Z", 
+            "limited_quantity": false, 
+            "maximum_purchase": 25, 
+            "minimum_purchase": 1
+        }, 
+        "deal_url": "http://www.groupon.com/deals/the-salad-bowl-dallas", 
+        "discount_amount": "5.00USD", 
+        "discount_percent": 50, 
+        "division_id": "dallas", 
+        "division_lat": 32.781100000000002, 
+        "division_lng": -96.7971, 
+        "division_name": "Dallas", 
+        "division_offset_gmt": -21600, 
+        "division_timezone": "Central Time (US & Canada)", 
+        "end_date": "2010-05-28T04:59:00Z", 
+        "id": "the-salad-bowl-dallas", 
+        "large_image_url": "http://www.groupon.com/images/site_images/0066/6275/TheSaladBowl.jpg", 
+        "medium_image_url": "http://www.groupon.com/images/site_images/0066/6275/TheSaladBowl_profile.jpg", 
+        "options": [
+            {
+                "conditions": {
+                    "details": [
+                        "Limit 3 per person, may buy multiple as gifts. Must redeem in 1 visit. Not valid for alcohol. No cash back. Not valid with other offers."
+                    ], 
+                    "expiration_date": "2010-11-29T05:59:00Z", 
+                    "initial_quantity": null, 
+                    "limited_quantity": false, 
+                    "maximum_purchase": 25, 
+                    "minimum_purchase": 1, 
+                    "quantity_remaining": null
+                }, 
+                "discount_amount": "5.00USD", 
+                "discount_percent": 50, 
+                "id": "13818", 
+                "price": "5.00USD", 
+                "quantity_sold": 1211, 
+                "sold_out": false, 
+                "title": "$10 Groupon to The Salad Bowl", 
+                "value": "10.00USD"
+            }
+        ], 
+        "price": "5.00USD", 
+        "quantity_sold": 1211, 
+        "shipping_address_required": false, 
+        "small_image_url": "http://www.groupon.com/images/site_images/0066/6275/TheSaladBowl_square.jpg", 
+        "sold_out": false, 
+        "start_date": "2010-05-27T05:01:20Z", 
+        "status": "open", 
+        "tipped": true, 
+        "tipped_date": "2010-05-27T12:59:37Z", 
+        "tipping_point": 100, 
+        "title": "$5 for $10 Worth of Fresh, Build-Your-Own Salads, Soups, and More at The Salad Bowl", 
+        "value": "10.00USD", 
+        "vendor_id": "the-salad-bowl-dallas", 
+        "vendor_name": "The Salad Bowl Dallas", 
+        "vendor_website_url": "http://www.saladbowlcafe.com"
+    }, 
+    "status": {
+        "code": 0, 
+        "date": "2010-05-28T03:40:35Z", 
+        "message": "Ok"
+    }
+}

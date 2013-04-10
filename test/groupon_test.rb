@@ -26,6 +26,11 @@ class GrouponTest < Test::Unit::TestCase
       deals.first.discount_percent.should == 50
     end
 
+    should "return a single deal" do
+      stub_get("/deals/1.json?client_id=", "deal.json")
+      deal = Groupon.deal(1)
+      deal.discount_percent.should == 50
+    end
   end
 
 end

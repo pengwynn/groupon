@@ -27,6 +27,13 @@ module Groupon
     Groupon::Client.new.deals(options)
   end
 
+  # Return a deal by id
+  #   Shows detailed information about a specified deal
+  # @see https://sites.google.com/site/grouponapiv2/api-resources/deals#show-request
+  def self.deal(id)
+    Groupon::Client.new.deal(id)
+  end
+
   class << self
 
     # Get/sets the required Groupon API token
